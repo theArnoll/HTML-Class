@@ -1,0 +1,36 @@
+body {
+    padding: 10px;
+    background-color: #333;
+    font-family: 'Kanit', 'Noto Sans TC', sans-serif;
+}
+
+#main {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.title {
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: solid 4px #888;
+    font-size: 80px;
+    color: #888;
+}
+
+.btn {
+    margin: 5px;
+    background-color: #444;
+    border: solid 3px #888;
+
+    height: 35px;
+
+    font-size: large;
+    color: #888;
+    font-family: 'Azeret Mono', sans-serif;
+}
+
+.my {
+    width: 612px;
+}
