@@ -1,0 +1,83 @@
+.content {
+    height: 80vh;
+    position: relative;
+    width: 80%;
+    background-color: #256D85;
+    
+    display: flex;
+    border: #F00 5px solid;
+}
+
+.content span {
+    width: 100%;
+    color: #FFF;
+    font-family: 'Kanit', 'Noto Sans TC', sans-serif;
+    text-align: center;
+    
+    align-self: flex-end;
+    margin-bottom: 7vh;
+ /* https://stackoverflow.com/questions/17123327/align-text-to-the-bottom-of-a-div */
+}
+
+.ani1 {
+    height: 0%;
+    width: 0%;
+    background-color: #DFF6FF;
+
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+    animation-name: an1;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0,.5,.45,1);
+    animation-iteration-count: infinite;
+}
+
+.ani2 {
+    height: 100%;
+    width: 100%;
+    background-color: #47B5FF;
+
+    position: absolute;
+    top: 0%;
+    left: 50%;
+
+    animation-name: an2;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0,.5,.45,1);
+    animation-iteration-count: infinite;
+}
+
+@keyframes an1 {
+    0% {
+        width: 0%;
+        height: 80%;
+    }
+    50% {
+        width: 100%;
+        height: 100%;
+    }
+    100% {
+        width: 0%;
+        height: 80%;
+    }
+}
+
+@keyframes an2 {
+    0% {
+        width: 100%;
+        left: 0%;
+        height: 80%;
+    }
+    50% {
+        width: 0%;
+        left: 100%;
+        height: 100%;
+    }
+    100% {
+        width: 100%;
+        left: 0%;
+        height: 80%;
+    }
+}
