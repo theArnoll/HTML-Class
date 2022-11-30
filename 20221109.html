@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300&family=Kanit:wght@300&family=Noto+Sans+TC:wght@300&family=Outfit:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+    <!-- https://fonts.google.com/noto/specimen/Noto+Sans+Mende+Kikakui?preview.text=%20%F0%9E%A1%A5%F0%9E%A0%96%F0%9E%A2%BB%F0%9E%A0%A2%F0%9E%A0%AE%F0%9E%A0%A3%20%F0%9E%A2%A3%F0%9E%A0%BD%20%F0%9E%A1%85%20%F0%9E%A1%84%20%F0%9E%A0%BA%20%F0%9E%A1%88%20%F0%9E%A1%97%20%F0%9E%A2%B0%F0%9E%A0%8E%20%F0%9E%A1%94%20%F0%9E%A1%AA,%20%F0%9E%A1%85%F0%9E%A0%A7%20%F0%9E%A1%84%20%F0%9E%A1%A5%F0%9E%A2%BB%F0%9E%A0%A4%20%F0%9E%A1%96%F0%9E%A0%A2%20%F0%9E%A0%84%F0%9E%A0%A6&preview.text_type=custom -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="eachCSS.css">
+    <link rel="stylesheet" href="20221109.css">
+    <title>svg test + animation</title>
+</head>
+<style>
+    a{
+        color: #999;
+    }
+</style>
+<body> 
+    <div class="bg"></div>
+    <canvas id="canvas"></canvas>
+  
+    <div class="title">SVG test and <a href="https://codepen.io/mladen___/pen/gbvqBo">animation</a> </div>
+
+    <div class="content" style="width: 100%; height: 80vh; position: relative;">
+        
+        <div class="Cristmastxt">Merry Cristmas</div>
+        <svg height="400" width="400" class="CristmasTree">
+            <!--                                                      |       /         -         /        -         /        -      -->
+            <path stroke="#888" style="fill-opacity: 0;" d="M 200 0 L 200 0 L 100 100 L 150 100 L 60 200 L 115 200 L 25 300 L 150 300 
+                                                                    L 150 400 L 250 400 
+                                                                    L 250 300 L 375 300 L 285 200 L 340 200 L 250 100 L 300 100 L 200 0" />
+            <!--                                                      |         - /25     \ -115    - /60     \ -150     -->
+            sry, yo browser don't support SVG. I'm wondering how old the browser you're using.
+        </svg>
+        <svg height="200" width="20" class="svg1">
+            <path stroke="#888" style="fill-opacity: 0;" d="M 0 0 L 0 0 L 20 20 L 0 40 L 20 60 L 0 80 L 20 100 L 0 120 L 20 140 L 0 160 L 20 180 L 0 200 Z" />
+            <path stroke="#888" style="fill-opacity: 0;" d="M 20 0 L 20 0 L 0 20 L 20 40 L 0 60 L 20 80 L 0 100 L 20 120 L 0 140 L 20 160 L 0 180 L 20 200 Z" />
+            <path stroke="#222" style="fill: #222; fill-opacity: 1;" d="M 0 0 L 200 0 L 200 20 L 0 20 Z" />
+            sry, yo browser don't support SVG. I'm wondering how old the browser you're using.
+        </svg>
+        <svg height="200" width="20" class="svg2">
+            <path stroke="#888" style="fill-opacity: 0;" d="M 0 0 L 0 0 L 20 20 L 0 40 L 20 60 L 0 80 L 20 100 L 0 120 L 20 140 L 0 160 L 20 180 L 0 200 Z" />
+            <path stroke="#888" style="fill-opacity: 0;" d="M 20 0 L 20 0 L 0 20 L 20 40 L 0 60 L 20 80 L 0 100 L 20 120 L 0 140 L 20 160 L 0 180 L 20 200 Z" />
+            <path stroke="#222" style="fill: #222; fill-opacity: 1;" d="M 0 0 L 200 0 L 200 20 L 0 20 Z" />
+            sry, yo browser don't support SVG. I'm wondering how old the browser you're using.
+        </svg>
+        <svg height="200" width="20" class="svg3">
+            <path stroke="#888" style="fill-opacity: 0;" d="M 0 0 L 0 0 L 20 20 L 0 40 L 20 60 L 0 80 L 20 100 L 0 120 L 20 140 L 0 160 L 20 180 L 0 200 Z" />
+            <path stroke="#888" style="fill-opacity: 0;" d="M 20 0 L 20 0 L 0 20 L 20 40 L 0 60 L 20 80 L 0 100 L 20 120 L 0 140 L 20 160 L 0 180 L 20 200 Z" />
+            <path stroke="#222" style="fill: #222; fill-opacity: 1;" d="M 0 0 L 200 0 L 200 20 L 0 20 Z" />
+            sry, yo browser don't support SVG. I'm wondering how old the browser you're using.
+        </svg>
+        <svg height="200" width="20" class="svg4">
+            <path stroke="#888" style="fill-opacity: 0;" d="M 0 0 L 0 0 L 20 20 L 0 40 L 20 60 L 0 80 L 20 100 L 0 120 L 20 140 L 0 160 L 20 180 L 0 200 Z" />
+            <path stroke="#888" style="fill-opacity: 0;" d="M 20 0 L 20 0 L 0 20 L 20 40 L 0 60 L 20 80 L 0 100 L 20 120 L 0 140 L 20 160 L 0 180 L 20 200 Z" />
+            <path stroke="#222" style="fill: #222; fill-opacity: 1;" d="M 0 0 L 200 0 L 200 20 L 0 20 Z" />
+            sry, yo browser don't support SVG. I'm wondering how old the browser you're using.
+        </svg>
+        <svg height="200" width="20" class="svg5">
+            <path stroke="#888" style="fill-opacity: 0;" d="M 0 0 L 0 0 L 20 20 L 0 40 L 20 60 L 0 80 L 20 100 L 0 120 L 20 140 L 0 160 L 20 180 L 0 200 Z" />
+            <path stroke="#888" style="fill-opacity: 0;" d="M 20 0 L 20 0 L 0 20 L 20 40 L 0 60 L 20 80 L 0 100 L 20 120 L 0 140 L 20 160 L 0 180 L 20 200 Z" />
+            <path stroke="#222" style="fill: #222; fill-opacity: 1;" d="M 0 0 L 200 0 L 200 20 L 0 20 Z" />
+            sry, yo browser don't support SVG. I'm wondering how old the browser you're using.
+        </svg>
+
+    </div>
+    
+    <div class="space"></div>
+    <a href="./index.html"><button class="backbtn">back</button></a>
+
+    <script src="./20221109.js"></script>
+</body>
+</html>

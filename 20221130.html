@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -8,13 +8,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>No Findable File.</title>
-    <link rel="stylesheet" href="./eachcss.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="eachcss.css">
 </head>
-<body>
-    <div class="title">Sorry. we can't find the requested date's file.</div>
+<style>
+    .main {
+        font-size: 23vh;
+        text-align: center;
+        font-family: 'Azeret Mono', monospace;
+    }
+</style>
+<body onload="date()">
+    <div class="title">TIME BROWSER: Java Script Practice</div>
+
+    <div style="height: 25vh;"></div>
+    <div class="main">
+        <span id="hour"></span>&nbsp;<span id="min"></span>&nbsp;<span id="sec"></span>
+    </div>
 
     <div class="space"></div>
     <a href="./index.html"><button class="backbtn">back</button></a>
+    
+    <script src="./20221130.js"></script>
 </body>
 </html>

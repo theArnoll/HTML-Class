@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300&family=Kanit:wght@300&family=Noto+Sans+TC:wght@300&family=Outfit:wght@300&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form test</title>
+    <link rel="stylesheet" href="eachCSS.css">
+</head>
+<style media="screen">
+  input {
+    background-color: #333;
+    border: #444 2px solid;
+    border-radius: 4px;
+  }
+  input:focus {
+    outline: none !important;
+    border-bottom: #355D8E 2px solid;
+    border-radius: 4px;
+  }
+  input, select, textarea {
+    color: #888;
+    font-size: 16px;
+    font-family: 'Kanit', 'Noto Sans TC', sans-serif;
+  }
+</style>
+<body>
+  <script src="20221019.js"> </script>
+
+  <div class="title">HTML Form</div>
+
+  <form class="diform">
+    <label for="num1">Enter the first number: </label>
+    <input type="text" name="num1"> <br>
+    <label for="num2">Enter the second number</label>
+    <input type="text" name="num2"> <br>
+  </form>
+
+  <button type="button" class="backbtn" style="border: #444 solid 2px; border-radius: 4px" onclick="mainFunc()">go</button>
+
+  <div id="js" style="border: #444 solid 2px; border-radius: 4px padding: 4px;">
+    aoeu
+  </div>
+
+  <div class="space"></div>
+  <a href="./index.html"><button class="backbtn">back</button></a>
+</body>
+</html>

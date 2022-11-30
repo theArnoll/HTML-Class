@@ -15,11 +15,11 @@ body {
     border: #888 2px solid;
     border-collapse: collapse;
 }
-th {
+th .css {
     background-color: #555;
     color: #111;
 }
-td {
+td .css {
     text-align: center;
     background-color: #444;
 }
